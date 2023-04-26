@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,100;1,400;1,500&display=swap');
+
+:root {
+    --cor-principal: #151515;
+    --cor-secundaria: #ffffff;
+
+    --fonte-principal: 'Roboto', sans-serif;
+
+    --max-width-info: 700px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding: 2em 10px;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    overflow-x: hidden;
+    min-height: 100vh;
+    background: var(--cor-principal);
+    gap: 1em;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    gap: 1em;
+    margin-top: 5em;
+    margin-bottom: 1em;
+}
+
+.main__section__logo {
+    width: 100vw;
+}
+
+.main__section__logo__div{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.main__section__logo__div img{
+    max-width: 200px;
+    max-height: 300px;
+}
+
+.main__section__info {
+    width: 100vw;
+}
+
+.main__section__info__div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.main__section__info__div__dados{
+    height: 0px;
+    visibility: hidden;
+}
+
+.main__section__info__a {
+    border-style: solid;
+    border-color: var(--cor-secundaria);
+    font-size: 2em;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    width: 50vw;
+    max-width: var(--max-width-info);
+    text-align: center;
+    text-decoration: none;
+    padding: 1em;
+    color: var(--cor-secundaria);
+    border: 0.2em solid var(--cor-secundaria);
+    gap: 1em;
+    margin: 1em;
+    cursor: pointer;
+}
+
+.main__section__info__a:hover {
+    color: var(--cor-principal);
+    background-color: var(--cor-secundaria);
+}
+
+
+.main__section__info__div strong {
+    font-size: 1.5em;
+    font-style: oblique;
+    font-weight: 400;
+}
+
+.main__section__info__div p {
+    font-size: 1.3em;
+    font-family: var(--fonte-principal);
+    font-weight: 100;
+    font-style: oblique;
+    line-height: 1.4em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: justify;
+    color: var(--cor-secundaria);
+    width: 50vw;
+    max-width: var(--max-width-info);
+}
+
+.main__section__info__div__lider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    max-width: var(--max-width-info);
+    gap: 2em;
+    margin: 1em;
+}
+
+.main__section__info__div__lider__foto {
+    border-radius: 50%;
+    border: 0.2em solid var(--cor-secundaria);
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.main__section__info__div__lider__contato {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.1em;
+}
+
+.main__section__info__div__lider__contato h2{
+    font-size: 4em;
+    font-family: var(--fonte-principal);
+    color: var(--cor-secundaria);
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.4em;
+}
+
+.main__section__info__div__lider__whats {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.main__section__info__div__lider__whats img{
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.main__section__info__div__lider__whats a{
+    font-size: 1em;
+    font-family: var(--fonte-principal);
+    color: var(--cor-secundaria);
+    font-weight: 400;
+    font-style: oblique;
+    line-height: 1.4em;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.footer__redes_sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__redes_sociais__instagram a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    font-size: 1em;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    color: var(--cor-secundaria);
+    font-style: normal;
+}
+
+.footer__redes_sociais__instagram img {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.footer__demais__infos {
+    font-size: 1em;
+    font-family: var(--fonte-principal);
+    font-weight: 100;
+    color: var(--cor-secundaria);
+    font-style: oblique;
+}

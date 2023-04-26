@@ -1,19 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/reset.css?v=1.0.0">
+    <link rel="stylesheet" href="./style/style.css">
     <title>Juventude PIBITAIM</title>
+    <link rel="icon" type="image/png" href="./img/favicon.png">
+    <script src="./js/script.js?v=1.0.0" defer></script>
 </head>
+
 <body>
     <header></header>
     <!--  -->
-    <main>
-        <h1>Hello World!</h1>
+    <main class="main">
+        <section class="main__section__logo">
+            <div class="main__section__logo__div">
+                <img src="./img/logo_juventude_grande.png" alt="Juventude pibitaim">
+            </div>
+        </section>
+        <section clas="main__section__info">
+            <div class="main__section__info__div">
+                <a class="main__section__info__a" onclick="expandir_info('quem_somos_texto')">_quem
+                    somos</a>
+                <div class="main__section__info__div__dados" id="quem_somos_texto">
+                    <p><strong>Olá, seja muito bem-vindo(a)!</strong></p>
+                    <p>Nós somos os Jovens da Primeira Igreja Batista no Itaim Paulista, um grupo de
+                        jovens cristãos que se
+                        reúnem periodicamente para compartilhar o estudo da palavra de Deus, louvá-lo e adorá-lo, além
+                        de
+                        desfrutar de momentos de comunhão também.</p>
+                    <p>Temos por objetivo ser cada vez mais parecidos com Cristo, levando ao mundo sua
+                        mensagem de salvação!
+                        Não somos a igreja do futuro, muito menos a “próxima geração”, fazemos parte da igreja do
+                        presente e
+                        entendemos nossa responsabilidade de ser Sal e Luz no mundo.</p>
+                </div>
+            </div>
+            <div class="main__section__info__div">
+                <a class="main__section__info__a" onclick="expandir_info('nossos_lideres_texto')">_nossos líderes</a>
+                <div class="main__section__info__div__dados" id="nossos_lideres_texto">
+                    <div class="main__section__info__div__lider">
+                        <img src="./img/lideres/tiane.jpg" class="main__section__info__div__lider__foto" alt="Tiane">
+                        <div class="main__section__info__div__lider__contato">
+                            <h2>Tiane</h2>
+                            <div class="main__section__info__div__lider__whats">
+                                <img src="./img/icons/whatsapp.png" alt="whatsapp">
+                                <a href="https://wa.me/5511984388651" target="_blank">(11) 98438-8651</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__section__info__div__lider">
+                        <img src="./img/lideres/sarue.jpg" class="main__section__info__div__lider__foto" alt="Sarue">
+                        <div class="main__section__info__div__lider__contato">
+                            <h2>Saruê</h2>
+                            <div class="main__section__info__div__lider__whats">
+                                <img src="./img/icons/whatsapp.png" alt="whatsapp">
+                                <a href="https://wa.me/5511984388647" target="_blank">(11) 98438-8647</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main__section__info__div">
+                <a class="main__section__info__a">_programações</a>
+            </div>
+        </section>
     </main>
     <!--  -->
-    <footer></footer>
+    <footer class="footer">
+        <section class="footer__redes_sociais">
+            <div class="footer__redes_sociais__instagram">
+                <a href="https://www.instagram.com/juventude.pibitaim/" target="_blank">
+                    <img src="./img/icons/instragram.png" alt="Instagram Juventude">
+                    @juventude.pibitaim
+                </a>
+            </div>
+        </section>
+        <section class="footer__demais__infos">
+            <p>&copy; 2023 pibitaim</p>
+        </section>
+    </footer>
 </body>
+
 </html>
