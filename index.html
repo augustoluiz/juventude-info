@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/reset.css?v=1.0.0">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <title>Juventude PIBITAIM</title>
     <link rel="icon" type="image/png" href="./img/favicon.png">
     <script src="./js/script.js?v=1.0.0" defer></script>
@@ -20,8 +22,16 @@
             <div class="main__section__logo__div">
                 <img src="./img/logo_juventude_grande.png" alt="Juventude pibitaim">
             </div>
+            <!--  -->
+            <div class="main__section__logo__div__versiculo">
+                <p>"Ninguém o despreze por você ser jovem; pelo contrário, seja um exemplo para os fiéis, na palavra, na
+                    conduta, no amor, na fé, na pureza."</p>
+                <p>1 Timóteo 4:12</p>
+            </div>
         </section>
+        <!--  -->
         <section clas="main__section__info">
+            <!--  -->
             <div class="main__section__info__div">
                 <a class="main__section__info__a" onclick="expandir_info('quem_somos_texto')">_quem
                     somos</a>
@@ -39,6 +49,7 @@
                         entendemos nossa responsabilidade de ser Sal e Luz no mundo.</p>
                 </div>
             </div>
+            <!--  -->
             <div class="main__section__info__div">
                 <a class="main__section__info__a" onclick="expandir_info('nossos_lideres_texto')">_nossos líderes</a>
                 <div class="main__section__info__div__dados" id="nossos_lideres_texto">
@@ -64,8 +75,37 @@
                     </div>
                 </div>
             </div>
+            <!--  -->
             <div class="main__section__info__div">
-                <a class="main__section__info__a">_programações</a>
+                <a class="main__section__info__a" onclick="expandir_info('calendario_div')">_programações</a>
+                <div class="main__section__calendario__info" id="calendario_div">
+                    <div class="main__section__calendario__card">
+                        <header>
+                            <p class="calendario__data_atual"></p>
+                            <div class="calendario__icones">
+                                <span id="prev" class="material-symbols-rounded">chevron_left</span>
+                                <span id="next" class="material-symbols-rounded">chevron_right</span>
+                            </div>
+                        </header>
+                        <div class="calendario__datas">
+                            <ul class="semanas">
+                                <li>Dom</li>
+                                <li>Seg</li>
+                                <li>Ter</li>
+                                <li>Qua</li>
+                                <li>Qui</li>
+                                <li>Sex</li>
+                                <li>Sáb</li>
+                            </ul>
+                            <ul class="dias" id="ul_dias"></ul>
+                        </div>
+                    </div>
+                    <div class="main__section__calendario__programacao"></div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="main__section__info__div">
+                <a class="main__section__info__a">_pibitaim</a>
             </div>
         </section>
     </main>
