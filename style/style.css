@@ -378,21 +378,85 @@ header .calendario__data_atual {
 }
 
 .main__section__calendario__programacao__card__titulo {
-    font-size: larger;
+    font-size: 2em;
     font-weight: bold;
 }
 
 .main__section__calendario__programacao__card__ul {
-    list-style-type: disc;
-    margin-left: 2.5em;
+    list-style-type: none;
+    padding: none !important;
+}
+
+.main__section__calendario__programacao__card__ul__li p {
+    width: auto;
+    font-style: normal;
+    font-size: 1.5em;
+    margin: none;
+    color: var(--cor-principal);
 }
 
 .main__section__calendario__programacao__card__ul__li strong {
-    font-weight: bold;
+    font-style: normal;
+    font-size: 1em;
+    font-weight: 400;
 }
 
 .main__section__calendario__programacao__card__p {
     font-style: italic;
+    font-weight: 500 !important;
+    color: var(--cor-principal) !important;
+}
+
+/*  */
+
+.main__section__pibitaim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+    max-width: 750px;
+    height: 0px;
+    visibility: hidden;
+}
+
+.main__section__pibitaim__redes_sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2em;
+    max-width: 750px;
+}
+
+.main__section__pibitaim__redes_sociais img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.main__section__pibitaim strong{
+    font-size: 1em;
+    font-weight: 400;
+    color: var(--cor-secundaria);
+}
+
+.main__section__pibitaim p{
+    font-size: 1em;
+    font-weight: 200;
+    font-style: oblique;
+    margin: 1em;
+}
+
+.main__section__pibitaim a{
+    font-size: 1em;
+    font-weight: 400;
+    color: var(--cor-secundaria);
+}
+
+.main__section__pibitaim iframe{
+    max-width: 750px;
+    width: 50vw;
+    height: 50vh;
 }
 
 /*  */

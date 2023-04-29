@@ -10,7 +10,7 @@ const prevNextIcon = document.querySelectorAll(".calendario__icones span");
 const cards_programacao = document.querySelector(".main__section__calendario__programacao");
 
 const dadosEscala = (callback) => {
-    fetch('https://augustoluiz.github.io/escala-audiovisual/data/data.json')
+    fetch('https://augustoluiz.github.io/juventude-info/data/data.json')
     .then((response) => response.json())
     .then((json) => callback(json));
 }
@@ -117,21 +117,20 @@ function gerarCardsProgramacao(dataFormatada){
     programacao = escalaList[0].data.find(a => Object.keys(a)[0] == dataFormatada)[dataFormatada]
     programacao.forEach(p => {
         h1Tag = `<h1 class="main__section__calendario__programacao__card__titulo">${p.nome}</h1>`;
-        liTagMM = ''
-        liTagTransmissao = ''
+        liTagDescricao = ''
         pTag = ''
 
-        if (p.multimidia != null && p.multimidia.length > 0) {
-            liTagMM = `<li class="main__section__calendario__programacao__card__ul__li"><strong>Multimídia: </strong>${p.multimidia}</li>`
+        if (p.descricao != null && p.descricao.length > 0) {
+            liTagDescricao = `<li class="main__section__calendario__programacao__card__ul__li"><p><strong>Descrição: </strong>${p.descricao}</p></li>`
         }
-        if (p.transmissao != null && p.transmissao.length > 0) {
-            liTagTransmissao = `<li class="main__section__calendario__programacao__card__ul__li"><strong>Transmissão: </strong>${p.transmissao}</li>`
+        if (p.horario != null && p.horario.length > 0) {
+            liTagHorario = `<li class="main__section__calendario__programacao__card__ul__li"><p><strong>Horário: </strong>${p.horario}</p></li>`
         }
         if (p.obs != null && p.obs.length > 0){
             pTag = `<p class="main__section__calendario__programacao__card__p">Obs: ${p.obs}</p>`
         }
 
-        ulTag = `<ul class="main__section__calendario__programacao__card__ul">${liTagMM}${liTagTransmissao}</ul>`
+        ulTag = `<ul class="main__section__calendario__programacao__card__ul">${liTagDescricao}${liTagHorario}</ul>`
         divTag = `<div class="main__section__calendario__programacao__card">${h1Tag}${ulTag}${pTag}</div>`;
         cards_programacao.innerHTML += divTag
     })
