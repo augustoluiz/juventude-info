@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/reset.css?v=1.0.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <title>Juventude PIBITAIM</title>
+    <link rel="icon" type="image/png" href="./img/favicon.png">
+    <script src="./js/script.js?v=1.0.0" defer></script>
+</head>
+
+<body>
+    <header></header>
+    <!--  -->
+    <main class="main">
+        <section class="main__section__logo">
+            <div class="main__section__logo__div">
+                <img src="./img/logo_juventude_grande.png" alt="Juventude pibitaim">
+            </div>
+            <!--  -->
+            <div class="main__section__logo__div__versiculo">
+                <p>"Ninguém o despreze por você ser jovem; pelo contrário, seja um exemplo para os fiéis, na palavra, na
+                    conduta, no amor, na fé, na pureza."</p>
+                <p>1 Timóteo 4:12</p>
+            </div>
+        </section>
+        <!--  -->
+        <section clas="main__section__info">
+            <!--  -->
+            <div class="main__section__info__div">
+                <a class="main__section__info__a" onclick="expandir_info('quem_somos_texto')">_quem
+                    somos</a>
+                <div class="main__section__info__div__dados" id="quem_somos_texto">
+                    <p><strong>Olá, seja muito bem-vindo(a)!</strong></p>
+                    <p>Nós somos os Jovens da Primeira Igreja Batista no Itaim Paulista, um grupo de
+                        jovens cristãos que se
+                        reúnem periodicamente para compartilhar o estudo da palavra de Deus, louvá-lo e adorá-lo, além
+                        de
+                        desfrutar de momentos de comunhão também.</p>
+                    <p>Temos por objetivo ser cada vez mais parecidos com Cristo, levando ao mundo sua
+                        mensagem de salvação!
+                        Não somos a igreja do futuro, muito menos a “próxima geração”, fazemos parte da igreja do
+                        presente e
+                        entendemos nossa responsabilidade de ser Sal e Luz no mundo.</p>
+                </div>
+            </div>
+            <!--  -->
+            <div class="main__section__info__div">
+                <a class="main__section__info__a" onclick="expandir_info('nossos_lideres_texto')">_nossos líderes</a>
+                <div class="main__section__info__div__dados" id="nossos_lideres_texto">
+                    <div class="main__section__info__div__lider">
+                        <img src="./img/lideres/tiane.jpg" class="main__section__info__div__lider__foto" alt="Tiane">
+                        <div class="main__section__info__div__lider__contato">
+                            <h2>Tiane</h2>
+                            <div class="main__section__info__div__lider__whats">
+                                <img src="./img/icons/whatsapp.png" alt="whatsapp">
+                                <a href="https://wa.me/5511984388651" target="_blank">(11) 98438-8651</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__section__info__div__lider">
+                        <img src="./img/lideres/sarue.jpg" class="main__section__info__div__lider__foto" alt="Sarue">
+                        <div class="main__section__info__div__lider__contato">
+                            <h2>Saruê</h2>
+                            <div class="main__section__info__div__lider__whats">
+                                <img src="./img/icons/whatsapp.png" alt="whatsapp">
+                                <a href="https://wa.me/5511984388647" target="_blank">(11) 98438-8647</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="main__section__info__div">
+                <a class="main__section__info__a" onclick="expandir_info('calendario_div')">_programações</a>
+                <div class="main__section__calendario__info" id="calendario_div">
+                    <div class="main__section__calendario__card">
+                        <header>
+                            <p class="calendario__data_atual"></p>
+                            <div class="calendario__icones">
+                                <span id="prev" class="material-symbols-rounded">chevron_left</span>
+                                <span id="next" class="material-symbols-rounded">chevron_right</span>
+                            </div>
+                        </header>
+                        <div class="calendario__datas">
+                            <ul class="semanas">
+                                <li>Dom</li>
+                                <li>Seg</li>
+                                <li>Ter</li>
+                                <li>Qua</li>
+                                <li>Qui</li>
+                                <li>Sex</li>
+                                <li>Sáb</li>
+                            </ul>
+                            <ul class="dias" id="ul_dias"></ul>
+                        </div>
+                    </div>
+                    <div class="main__section__calendario__programacao"></div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="main__section__info__div">
+                <a class="main__section__info__a" onclick="expandir_info('pibitaim_div')">_pibitaim</a>
+                <div class="main__section__pibitaim" id="pibitaim_div">
+                    <div class="main__section__pibitaim__redes_sociais">
+                        <a href="https://www.instagram.com/pibitaim/" target="_blank">
+                            <img src="./img/icons/instragram.png" alt="Instagram Juventude">
+                        </a>
+                        <a href="https://www.facebook.com/pibitaimigrejabatista" target="_blank">
+                            <img src="./img/icons/facebook.png" alt="Instagram Juventude">
+                        </a>
+                        <a href="https://www.youtube.com/c/PIBITAIM" target="_blank">
+                            <img src="./img/icons/youtube.png" alt="Instagram Juventude">
+                        </a>
+                    </div>
+                    <div class="main__section__pibitaim__info">
+                        <p>Primeira Igreja Batista do Itaim Paulista: Uma Igreja que Vive e Prega o Evangelho.</p>
+                        <p><strong>Endereço:</strong> Rua Curicháras, 203 - Itaim Paulista, São Paulo - SP, 08110-430</p>
+                        <p><strong>Telefone e Whatsapp: </strong><a href="https://wa.me/551125611873" target="_blank">(11) 2561-1873</a></p>
+                    </div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.040519014809!2d-46.4004593!3d-23.49505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce6377fb031c0d%3A0xf65b7cddb8b37a98!2sR.%20Curich%C3%A1ras%2C%20203%20-%20Jardim%20Aimore%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008110-430!5e0!3m2!1spt-BR!2sbr!4v1682734065976!5m2!1spt-BR!2sbr"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--  -->
+    <footer class="footer">
+        <section class="footer__redes_sociais">
+            <div class="footer__redes_sociais__instagram">
+                <a href="https://www.instagram.com/juventude.pibitaim/" target="_blank">
+                    <img src="./img/icons/instragram.png" alt="Instagram Juventude">
+                    @juventude.pibitaim
+                </a>
+            </div>
+        </section>
+        <section class="footer__demais__infos">
+            <p>&copy; 2023 pibitaim</p>
+        </section>
+    </footer>
+</body>
+
+</html>
