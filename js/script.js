@@ -10,7 +10,7 @@ const prevNextIcon = document.querySelectorAll(".calendario__icones span");
 const cards_programacao = document.querySelector(".main__section__calendario__programacao");
 
 const dadosEscala = (callback) => {
-    fetch('https://augustoluiz.github.io/juventude-info/data/data.json')
+    fetch('https://raw.githubusercontent.com/augustoluiz/juventude-info/main/data/data.json')
     .then((response) => response.json())
     .then((json) => callback(json));
 }
