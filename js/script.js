@@ -28,10 +28,12 @@ function expandir_info(id_div) {
     const div = document.getElementById(id_div);
     if (!click[id_div]) {
         div.style.height = "auto";
+        div.style.display = "flex";
         div.style.visibility = "visible";
         click[id_div] = true
     } else {
         div.style.height = "0px";
+        div.style.display = "none";
         div.style.visibility = "hidden";
         click[id_div] = false;
     }
