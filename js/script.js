@@ -1,7 +1,8 @@
 click = {
     'quem_somos_texto': false,
     'nossos_lideres_texto': false,
-    'programacoes_texto': false
+    'calendario_div': false,
+    'pibitaim_div': false
 };
 
 const dias = document.querySelector(".dias");
@@ -121,7 +122,7 @@ function gerarCardsProgramacao(dataFormatada){
         pTag = ''
 
         if (p.descricao != null && p.descricao.length > 0) {
-            liTagDescricao = `<li class="main__section__calendario__programacao__card__ul__li"><p><strong>Descrição: </strong>${p.descricao}</p></li>`
+            liTagDescricao = `<li class="main__section__calendario__programacao__card__ul__li"><p>${p.descricao}</p></li>`
         }
         if (p.horario != null && p.horario.length > 0) {
             liTagHorario = `<li class="main__section__calendario__programacao__card__ul__li"><p><strong>Horário: </strong>${p.horario}</p></li>`
