@@ -14,9 +14,9 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 100vw;
+    /* width: 100vw; */
     overflow-x: hidden;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background: var(--cor-principal);
     gap: 1em;
 }
@@ -26,7 +26,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 100vw;
+    /* width: 100vw; */
     gap: 1em;
     margin-bottom: 1em;
     margin-top: 2em;
