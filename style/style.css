@@ -89,9 +89,9 @@ body {
     height: 0px;
     display: none;
     visibility: hidden;
-    display: flex;
     flex-direction: column;
     gap: 1em;
+    margin: 1em;
 }
 
 .main__section__info__a {
@@ -132,8 +132,8 @@ body {
     line-height: 1.4em;
     margin-left: 1em;
     margin-right: 1em;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
     text-align: justify;
     color: var(--cor-secundaria);
     width: 50vw;
@@ -568,8 +568,8 @@ header .calendario__data_atual {
         font-size: 1.2em;
         margin-left: 1em;
         margin-right: 1em;
-        margin-top: 0.8em;
-        margin-bottom: 0.8em;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
         width: 50vw;
         max-width: var(--max-width-info);
     }
@@ -816,8 +816,8 @@ header .calendario__data_atual {
         font-size: 1.3em;
         margin-left: 1em;
         margin-right: 1em;
-        margin-top: 0.8em;
-        margin-bottom: 0.8em;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
         width: 45vw;
         max-width: var(--max-width-info);
     }
@@ -1062,8 +1062,8 @@ header .calendario__data_atual {
         font-size: 1.2em;
         margin-left: 1em;
         margin-right: 1em;
-        margin-top: 0.9em;
-        margin-bottom: 0.8em;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
         width: 40vw;
         max-width: var(--max-width-info);
     }
@@ -1308,8 +1308,8 @@ header .calendario__data_atual {
         font-size: 1.2em;
         margin-left: 1em;
         margin-right: 1em;
-        margin-top: 0.9em;
-        margin-bottom: 0.8em;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
         width: 40vw;
         max-width: var(--max-width-info);
     }
@@ -1554,8 +1554,8 @@ header .calendario__data_atual {
         font-size: 1.2em;
         margin-left: 1em;
         margin-right: 1em;
-        margin-top: 1em;
-        margin-bottom: 1em;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
         width: 50vw;
         max-width: var(--max-width-info);
     }
@@ -1781,8 +1781,8 @@ header .calendario__data_atual {
         font-size: 1.2em;
         margin-left: 1em;
         margin-right: 1em;
-        margin-top: 1em;
-        margin-bottom: 1em;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
         width: 70vw;
         max-width: var(--max-width-info);
     }
@@ -1994,8 +1994,8 @@ header .calendario__data_atual {
         font-size: 1em;
         margin-left: 1em;
         margin-right: 1em;
-        margin-top: 1em;
-        margin-bottom: 1em;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
         width: 70vw;
         max-width: var(--max-width-info);
     }
@@ -2207,8 +2207,8 @@ header .calendario__data_atual {
         font-size: 1em;
         margin-left: 1em;
         margin-right: 1em;
-        margin-top: 1em;
-        margin-bottom: 1em;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
         width: 85vw;
         max-width: var(--max-width-info);
     }
