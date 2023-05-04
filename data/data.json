@@ -51,6 +51,16 @@
             ]
         },
         {
+            "2023-07-01": [
+                {
+                    "nome": "INTERCÂMBIO PIB ARUJÁ",
+                    "descricao": "Será realizado um intercâmbio com a Primeira Igreja Batista de Arujá. Mais informações em breve!",
+                    "horario": "O dia todo",
+                    "obs": null
+                }
+            ]
+        },
+        {
             "2023-07-08": [
                 {
                     "nome": "SABANIGHT",
@@ -66,6 +76,66 @@
                     "nome": "UNIJOVEM",
                     "descricao": "É a União de Jovens, um momento onde a juventude se reúne para aprender da palavra de Deus, louvar e compartilhar de momentos de comunhão.",
                     "horario": "19h",
+                    "obs": null
+                }
+            ]
+        },
+        {
+            "2023-07-24": [
+                {
+                    "nome": "JUBACEN - DIA 1",
+                    "descricao": "O tradicional congresso da Jubacen (Juventude Batista do Extremo Leste da Capital) ocorrerá na PIBITAIM entre os dias 24/07 a 29/07. Mais informações em breve!",
+                    "horario": "A confirmar",
+                    "obs": null
+                }
+            ]
+        },
+        {
+            "2023-07-25": [
+                {
+                    "nome": "JUBACEN - DIA 2",
+                    "descricao": "O tradicional congresso da Jubacen (Juventude Batista do Extremo Leste da Capital) ocorrerá na PIBITAIM entre os dias 24/07 a 29/07. Mais informações em breve!",
+                    "horario": "A confirmar",
+                    "obs": null
+                }
+            ]
+        },
+        {
+            "2023-07-26": [
+                {
+                    "nome": "JUBACEN - DIA 3",
+                    "descricao": "O tradicional congresso da Jubacen (Juventude Batista do Extremo Leste da Capital) ocorrerá na PIBITAIM entre os dias 24/07 a 29/07. Mais informações em breve!",
+                    "horario": "A confirmar",
+                    "obs": null
+                }
+            ]
+        },
+        {
+            "2023-07-27": [
+                {
+                    "nome": "JUBACEN - DIA 4",
+                    "descricao": "O tradicional congresso da Jubacen (Juventude Batista do Extremo Leste da Capital) ocorrerá na PIBITAIM entre os dias 24/07 a 29/07. Mais informações em breve!",
+                    "horario": "A confirmar",
+                    "obs": null
+                }
+            ]
+        },
+        {
+            "2023-07-28": [
+                {
+                    "nome": "JUBACEN - DIA 5",
+                    "descricao": "O tradicional congresso da Jubacen (Juventude Batista do Extremo Leste da Capital) ocorrerá na PIBITAIM entre os dias 24/07 a 29/07. Mais informações em breve!",
+                    "horario": "A confirmar",
+                    "obs": null
+                }
+            ]
+        },
+        {
+            "2023-07-29": [
+                {
+                    "nome": "JUBACEN - DIA 6",
+                    "descricao": "O tradicional congresso da Jubacen (Juventude Batista do Extremo Leste da Capital) ocorrerá na PIBITAIM entre os dias 24/07 a 29/07. Mais informações em breve!",
+                    "horario": "A confirmar",
                     "obs": null
                 }
             ]
